@@ -10,5 +10,8 @@ func main() {
   fmt.Println(s)  
   fmt.Println(len(s))
     fmt.Println(cap(s))
+  
+  b := append(s,10)
+   fmt.Println(b)
 }
 
